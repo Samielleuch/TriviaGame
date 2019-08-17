@@ -1,4 +1,4 @@
-# project
+# TriviaGame
 
 ## Project setup
 ```
