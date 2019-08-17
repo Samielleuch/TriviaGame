@@ -1,7 +1,8 @@
 <template>
     <div>
-        <v-toolbar>
-            <v-toolbar-title> Trivia Questions Game :D SCORE = 0 / 0</v-toolbar-title>
+        <v-toolbar color="teal lighten-3" dark>
+            <v-app-bar-nav-icon></v-app-bar-nav-icon>
+            <v-toolbar-title> Trivia Questions Game :D</v-toolbar-title>
             <v-spacer></v-spacer>
         </v-toolbar>
     </div>

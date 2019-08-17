@@ -2,13 +2,12 @@
     <v-row justify="center">
         <v-col cols="5">
             <v-card>
-                <v-card-title>
-                    <v-row>
-                        <v-col align="center">
-                            Question here !
-                        </v-col>
-                    </v-row>
-                </v-card-title>
+                <v-system-bar color="teal darken-2"></v-system-bar>
+                <v-toolbar color="teal" dark dense>
+                    <v-toolbar-title>Question</v-toolbar-title>
+                    <v-spacer></v-spacer>
+                    <v-chip color="teal lighten-5" dark outlined ripple>Score: 0/0</v-chip>
+                </v-toolbar>
                 <v-card-text>
                     <v-row>
                         <v-col align="start">
@@ -16,6 +15,17 @@
                         </v-col>
                     </v-row>
                 </v-card-text>
+                <v-divider></v-divider>
+                <v-row justify="center">
+                    <v-col cols="2">
+                        <v-btn outlined>Submit</v-btn>
+                    </v-col>
+                    <v-col cols="2">
+                        <v-btn outlined>Next</v-btn>
+                    </v-col>
+                </v-row>
+
+
             </v-card>
         </v-col>
     </v-row>
