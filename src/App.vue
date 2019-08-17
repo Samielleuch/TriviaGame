@@ -2,7 +2,9 @@
   <v-app>
     <Header/>
     <v-content>
-      <QuestionBox/>
+      <v-container fluid>
+        <QuestionBox/>
+      </v-container>
     </v-content>
   </v-app>
 </template>
@@ -13,10 +15,10 @@
 
   export default {
     name: 'App',
-  components: {
-    QuestionBox,
-    Header,
-  },
+    components: {
+      QuestionBox,
+      Header,
+    },
     data: () => ({
       //
     }),
