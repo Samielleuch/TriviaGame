@@ -11,7 +11,13 @@
                 <v-card-text>
                     <v-row>
                         <v-col align="start">
-                            <p> Possibility here </p>
+                            <v-list shaped>
+                                <v-list-item>
+                                    <v-list-item-content>
+                                        <v-list-item-title> Answers here Loop</v-list-item-title>
+                                    </v-list-item-content>
+                                </v-list-item>
+                            </v-list>
                         </v-col>
                     </v-row>
                 </v-card-text>
