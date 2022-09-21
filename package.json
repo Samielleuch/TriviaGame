@@ -12,7 +12,7 @@
     "loadash": "^1.0.0",
     "lodash": "^4.17.15",
     "vue": "^2.6.10",
-    "vuetify": "^2.0.0"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.10.0",
